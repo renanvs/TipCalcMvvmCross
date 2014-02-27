@@ -1,0 +1,9 @@
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\bin\Debug\TipCalc.Core.dll
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\bin\Debug\TipCalc.Core.pdb
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\bin\Debug\Cirrious.CrossCore.pdb
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\bin\Debug\Cirrious.MvvmCross.pdb
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\obj\Debug\TipCalc.Core.csprojResolveAssemblyReference.cache
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\obj\Debug\TipCalc.Core.dll
+C:\Users\renan.silva\Dropbox\Xamarin\Projects\CrossPlatform\TipCalcSolution\TipCalc.Core\obj\Debug\TipCalc.Core.pdb
