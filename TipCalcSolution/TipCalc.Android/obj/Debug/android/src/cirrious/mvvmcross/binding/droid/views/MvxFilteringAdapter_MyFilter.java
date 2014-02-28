@@ -17,14 +17,14 @@ public class MvxFilteringAdapter_MyFilter
 	}
 
 
-	public MvxFilteringAdapter_MyFilter ()
+	public MvxFilteringAdapter_MyFilter () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxFilteringAdapter_MyFilter.class)
 			mono.android.TypeManager.Activate ("Cirrious.MvvmCross.Binding.Droid.Views.MvxFilteringAdapter/MyFilter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public MvxFilteringAdapter_MyFilter (cirrious.mvvmcross.binding.droid.views.MvxFilteringAdapter p0)
+	public MvxFilteringAdapter_MyFilter (cirrious.mvvmcross.binding.droid.views.MvxFilteringAdapter p0) throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxFilteringAdapter_MyFilter.class)

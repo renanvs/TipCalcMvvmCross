@@ -18,7 +18,7 @@ public class MvxSeekBarProgressTargetBinging_SeekBarChangeListener
 	}
 
 
-	public MvxSeekBarProgressTargetBinging_SeekBarChangeListener ()
+	public MvxSeekBarProgressTargetBinging_SeekBarChangeListener () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxSeekBarProgressTargetBinging_SeekBarChangeListener.class)

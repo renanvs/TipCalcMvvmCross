@@ -20,7 +20,7 @@ public abstract class MvxBaseListItemView
 	}
 
 
-	public MvxBaseListItemView (android.content.Context p0)
+	public MvxBaseListItemView (android.content.Context p0) throws java.lang.Throwable
 	{
 		super (p0);
 		if (getClass () == MvxBaseListItemView.class)
@@ -28,7 +28,7 @@ public abstract class MvxBaseListItemView
 	}
 
 
-	public MvxBaseListItemView (android.content.Context p0, android.util.AttributeSet p1)
+	public MvxBaseListItemView (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
 	{
 		super (p0, p1);
 		if (getClass () == MvxBaseListItemView.class)
@@ -36,7 +36,7 @@ public abstract class MvxBaseListItemView
 	}
 
 
-	public MvxBaseListItemView (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public MvxBaseListItemView (android.content.Context p0, android.util.AttributeSet p1, int p2) throws java.lang.Throwable
 	{
 		super (p0, p1, p2);
 		if (getClass () == MvxBaseListItemView.class)

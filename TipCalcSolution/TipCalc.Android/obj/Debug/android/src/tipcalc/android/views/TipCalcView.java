@@ -14,7 +14,7 @@ public class TipCalcView
 	}
 
 
-	public TipCalcView ()
+	public TipCalcView () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == TipCalcView.class)

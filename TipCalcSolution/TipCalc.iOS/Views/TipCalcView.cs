@@ -43,24 +43,15 @@ namespace TipCalc.iOS.Views
 		public TipCalcView() {
 		}
 
-		public override void DidReceiveMemoryWarning() {
-			base.DidReceiveMemoryWarning();
-
-		}
-
 		public override void ViewDidLoad() {
 			View = new UniversalView();
-
 			base.ViewDidLoad();
-
 			this.NavigationController.SetNavigationBarHidden(true, false);
 
 			CreateItens ();
 			SetPositionAndBehavior ();
 			AddViews ();
 			AddBinds ();
-
-
 		}
 
 		public void CreateItens(){

@@ -31,14 +31,14 @@ public class MvxAdapter
 	}
 
 
-	public MvxAdapter ()
+	public MvxAdapter () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxAdapter.class)
 			mono.android.TypeManager.Activate ("Cirrious.MvvmCross.Binding.Droid.Views.MvxAdapter, Cirrious.MvvmCross.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public MvxAdapter (android.content.Context p0)
+	public MvxAdapter (android.content.Context p0) throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxAdapter.class)

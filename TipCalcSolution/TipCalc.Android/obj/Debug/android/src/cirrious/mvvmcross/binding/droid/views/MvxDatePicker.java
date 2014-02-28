@@ -16,7 +16,7 @@ public class MvxDatePicker
 	}
 
 
-	public MvxDatePicker (android.content.Context p0)
+	public MvxDatePicker (android.content.Context p0) throws java.lang.Throwable
 	{
 		super (p0);
 		if (getClass () == MvxDatePicker.class)
@@ -24,7 +24,7 @@ public class MvxDatePicker
 	}
 
 
-	public MvxDatePicker (android.content.Context p0, android.util.AttributeSet p1)
+	public MvxDatePicker (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
 	{
 		super (p0, p1);
 		if (getClass () == MvxDatePicker.class)
@@ -32,7 +32,7 @@ public class MvxDatePicker
 	}
 
 
-	public MvxDatePicker (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public MvxDatePicker (android.content.Context p0, android.util.AttributeSet p1, int p2) throws java.lang.Throwable
 	{
 		super (p0, p1, p2);
 		if (getClass () == MvxDatePicker.class)

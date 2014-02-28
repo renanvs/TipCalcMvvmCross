@@ -14,5 +14,19 @@
     </array>
     <key>MinimumOSVersion</key>
     <string>3.2</string>
+
+	<key>CFBundleDisplayName</key>
+	<string>TipCalciOS</string>
+	<key>CFBundleIdentifier</key>
+	<string>br.com.tipcalc.ios</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>tipcalcios</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	  
   </dict>
 </plist>

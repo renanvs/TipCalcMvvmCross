@@ -16,7 +16,7 @@ public class MvxBindingLayoutInflatorFactory
 	}
 
 
-	public MvxBindingLayoutInflatorFactory ()
+	public MvxBindingLayoutInflatorFactory () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxBindingLayoutInflatorFactory.class)

@@ -14,7 +14,7 @@ public class MvxAutoCompleteTextView
 	}
 
 
-	public MvxAutoCompleteTextView (android.content.Context p0)
+	public MvxAutoCompleteTextView (android.content.Context p0) throws java.lang.Throwable
 	{
 		super (p0);
 		if (getClass () == MvxAutoCompleteTextView.class)
@@ -22,7 +22,7 @@ public class MvxAutoCompleteTextView
 	}
 
 
-	public MvxAutoCompleteTextView (android.content.Context p0, android.util.AttributeSet p1)
+	public MvxAutoCompleteTextView (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
 	{
 		super (p0, p1);
 		if (getClass () == MvxAutoCompleteTextView.class)
@@ -30,7 +30,7 @@ public class MvxAutoCompleteTextView
 	}
 
 
-	public MvxAutoCompleteTextView (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public MvxAutoCompleteTextView (android.content.Context p0, android.util.AttributeSet p1, int p2) throws java.lang.Throwable
 	{
 		super (p0, p1, p2);
 		if (getClass () == MvxAutoCompleteTextView.class)

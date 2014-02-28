@@ -14,7 +14,7 @@ public class MvxLinearLayout
 	}
 
 
-	public MvxLinearLayout (android.content.Context p0)
+	public MvxLinearLayout (android.content.Context p0) throws java.lang.Throwable
 	{
 		super (p0);
 		if (getClass () == MvxLinearLayout.class)
@@ -22,7 +22,7 @@ public class MvxLinearLayout
 	}
 
 
-	public MvxLinearLayout (android.content.Context p0, android.util.AttributeSet p1)
+	public MvxLinearLayout (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
 	{
 		super (p0, p1);
 		if (getClass () == MvxLinearLayout.class)

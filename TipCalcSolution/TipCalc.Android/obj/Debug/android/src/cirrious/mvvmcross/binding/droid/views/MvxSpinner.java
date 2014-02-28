@@ -14,7 +14,7 @@ public class MvxSpinner
 	}
 
 
-	public MvxSpinner (android.content.Context p0)
+	public MvxSpinner (android.content.Context p0) throws java.lang.Throwable
 	{
 		super (p0);
 		if (getClass () == MvxSpinner.class)
@@ -22,7 +22,7 @@ public class MvxSpinner
 	}
 
 
-	public MvxSpinner (android.content.Context p0, android.util.AttributeSet p1)
+	public MvxSpinner (android.content.Context p0, android.util.AttributeSet p1) throws java.lang.Throwable
 	{
 		super (p0, p1);
 		if (getClass () == MvxSpinner.class)
@@ -30,7 +30,7 @@ public class MvxSpinner
 	}
 
 
-	public MvxSpinner (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public MvxSpinner (android.content.Context p0, android.util.AttributeSet p1, int p2) throws java.lang.Throwable
 	{
 		super (p0, p1, p2);
 		if (getClass () == MvxSpinner.class)

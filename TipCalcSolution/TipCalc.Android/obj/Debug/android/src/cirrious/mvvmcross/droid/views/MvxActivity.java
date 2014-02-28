@@ -15,7 +15,7 @@ public abstract class MvxActivity
 	}
 
 
-	public MvxActivity ()
+	public MvxActivity () throws java.lang.Throwable
 	{
 		super ();
 		if (getClass () == MvxActivity.class)
