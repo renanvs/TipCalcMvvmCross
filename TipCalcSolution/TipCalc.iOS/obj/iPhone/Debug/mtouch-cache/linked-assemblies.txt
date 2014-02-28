@@ -1,0 +1,14 @@
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/TipCalciOS.exe
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/Cirrious.MvvmCross.Localization.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/Cirrious.CrossCore.Touch.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/Cirrious.MvvmCross.Binding.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/System.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/System.Windows.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/Cirrious.CrossCore.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/Cirrious.MvvmCross.Binding.Touch.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/Cirrious.MvvmCross.Touch.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/System.Core.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/Cirrious.MvvmCross.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.iOS/obj/iPhone/Debug/mtouch-cache/Link/TipCalc.iOS.Linked.dll

@@ -1,0 +1,13 @@
+mscorlib.dll
+System.Core.dll
+System.dll
+System.Xml.dll
+Cirrious.MvvmCross.Touch.dll
+Cirrious.MvvmCross.dll
+Cirrious.CrossCore.dll
+System.Windows.dll
+Cirrious.CrossCore.Touch.dll
+Cirrious.MvvmCross.Binding.dll
+Cirrious.MvvmCross.Localization.dll
+Cirrious.MvvmCross.Binding.Touch.dll
+TipCalc.iOS.Linked.dll

@@ -1,0 +1,12 @@
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.Android/bin/Debug/TipCalc.Android.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/binaries/Mvx/Portable/Cirrious.CrossCore.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/binaries/Mvx/Droid/Cirrious.CrossCore.Droid.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/binaries/Mvx/Portable/Cirrious.MvvmCross.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/binaries/Mvx/Portable/Cirrious.MvvmCross.Binding.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/binaries/Mvx/Droid/Cirrious.MvvmCross.Binding.Droid.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/binaries/Mvx/Droid/Cirrious.MvvmCross.Droid.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/binaries/Mvx/Portable/Cirrious.MvvmCross.Plugins.Json.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/binaries/Mvx/Droid/System.Windows.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.Android.Linked/TipCalc.Android.Linked/bin/Debug/TipCalc.Android.Linked.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.Android/bin/Debug/Cirrious.MvvmCross.Localization.dll
+/Users/renansilva/Projects/Sharp/TipCalcMvvmCross/TipCalcSolution/TipCalc.Android/bin/Debug/Newtonsoft.Json.dll
