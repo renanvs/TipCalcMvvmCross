@@ -5,6 +5,10 @@ using Cirrious.MvvmCross.Touch.Views;
 using MonoTouch.CoreFoundation;
 using MonoTouch.UIKit;
 using MonoTouch.Foundation;
+using TipCalc.Core;
+using TipCalc.Core.ViewModels;
+using Cirrious.MvvmCross.Binding.BindingContext;
+using System.Windows;
 
 namespace TipCalc.iOS.Views
 {
@@ -21,7 +25,7 @@ namespace TipCalc.iOS.Views
 		}
 
 		void Initialize() {
-			BackgroundColor = UIColor.Red;
+			BackgroundColor = UIColor.White;
 		}
 	}
 
@@ -35,15 +39,13 @@ namespace TipCalc.iOS.Views
 		UISlider GenerositySlider;
 		UILabel TipLabel;
 		UILabel TipResultLabel;
-		
+
 		public TipCalcView() {
 		}
 
 		public override void DidReceiveMemoryWarning() {
-			// Releases the view if it doesn't have a superview.
 			base.DidReceiveMemoryWarning();
 
-			// Release any cached data, images, etc that aren't in use.
 		}
 
 		public override void ViewDidLoad() {
@@ -51,11 +53,66 @@ namespace TipCalc.iOS.Views
 
 			base.ViewDidLoad();
 
-			SubTotalLabel = new UILabel();
-			SubTotalLabel.Frame = new RectangleF(0, 0, 100, 100);
-			SubTotalLabel.Text = "Teste";
+			this.NavigationController.SetNavigationBarHidden(true, false);
 
-			// Perform any additional setup after loading the view
+			CreateItens ();
+			SetPositionAndBehavior ();
+			AddViews ();
+			AddBinds ();
+
+
 		}
+
+		public void CreateItens(){
+			SubTotalLabel = new UILabel();
+			SubTotalTextView = new UITextView();
+			GenerosityLabel = new UILabel(); 
+			GenerositySlider = new UISlider ();
+			TipLabel = new UILabel();
+			TipResultLabel = new UILabel();
+
+		}
+
+		public void SetPositionAndBehavior(){
+			SubTotalLabel.Frame = new RectangleF(40, 40, 230, 25);
+			SubTotalLabel.Text = "Subtotal";
+			SubTotalLabel.BackgroundColor = UIColor.Clear;
+
+			SubTotalTextView.Frame = new RectangleF (40, 80, 230, 25);
+			SubTotalTextView.BackgroundColor = UIColor.Yellow;
+			SubTotalTextView.ResignFirstResponder();
+
+			GenerosityLabel.Frame = new RectangleF (40, 120, 230, 25);
+			GenerosityLabel.Text = "How generous?";
+			GenerosityLabel.BackgroundColor = UIColor.Clear;
+
+			GenerositySlider.Frame = new RectangleF (40, 160, 230, 25);
+			GenerositySlider.MaxValue = 40;
+
+			TipLabel.Frame = new RectangleF(40, 190, 230, 25);
+			TipLabel.Text = "The tip is:";
+			TipLabel.BackgroundColor = UIColor.Clear;
+
+			TipResultLabel.Frame = new RectangleF (40, 220, 230, 25);
+			TipResultLabel.BackgroundColor = UIColor.Gray;
+		}
+
+		public void AddViews(){
+			this.View.AddSubview (SubTotalLabel);
+			this.View.AddSubview (SubTotalTextView);
+			this.View.AddSubview (GenerosityLabel);
+			this.View.AddSubview (GenerositySlider);
+			this.View.AddSubview (TipLabel);
+			this.View.AddSubview (TipResultLabel);
+		}
+
+		public void AddBinds(){
+			var set = this.CreateBindingSet<TipCalcView, TipCalcViewModel> ();
+			set.Bind (TipResultLabel).To (vm => vm.Tip);
+			set.Bind (SubTotalTextView).To (vm => vm.SubTotal);
+			set.Bind (GenerositySlider).To (vm => vm.Generosity);
+			set.Apply ();
+		}
+
 	}
-}
+}	
